@@ -1,0 +1,10 @@
+# Generated while running the example: installs, lockfiles, demo worktrees.
+examples/workspace/*/node_modules/
+examples/workspace/*/package-lock.json
+examples/workspace/*/pnpm-lock.yaml
+examples/workspace/*-wt-*/
+
+# Where recipes mirror their output.
+*.log
+
+.DS_Store

@@ -1,0 +1,6 @@
+# A workspace you can actually run.
+#
+# The justfile from the repo root, imported unchanged — `justfile_directory()`
+# resolves to *this* directory, so every recipe treats examples/workspace as the
+# workspace root and finds the stand-in services next to it.
+import '../../justfile'
